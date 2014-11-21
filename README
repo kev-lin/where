@@ -1,4 +1,4 @@
-Rails Devise
+Where2
 ================
 
 Rails Composer, open source, supported by subscribers.
@@ -12,13 +12,13 @@ Please provide a copy of this README file when reporting any issues.
 option  Build a starter application?
 choose  Enter your selection: [rails-devise]
 option  Get on the mailing list for Rails Composer news?
-choose  Enter your selection: [none]
+choose  Enter your selection: [mailinglist]
 option  Web server for development?
-choose  Enter your selection: [thin]
+choose  Enter your selection: [webrick]
 option  Web server for production?
-choose  Enter your selection: [thin]
+choose  Enter your selection: [same]
 option  Database used in development?
-choose  Enter your selection: [postgresql]
+choose  Enter your selection: [sqlite]
 option  Template engine?
 choose  Enter your selection: [erb]
 option  Test framework?
@@ -26,9 +26,9 @@ choose  Enter your selection: [none]
 option  Continuous testing?
 choose  Enter your selection: []
 option  Front-end framework?
-choose  Enter your selection: [bootstrap3]
+choose  Enter your selection: [none]
 option  Add support for sending email?
-choose  Enter your selection: [gmail]
+choose  Enter your selection: [none]
 option  Authentication?
 choose  Enter your selection: [devise]
 option  Devise modules?
@@ -46,7 +46,7 @@ choose  Enter your selection: [none]
 option  Install page-view analytics?
 choose  Enter your selection: [none]
 option  Add a deployment mechanism?
-choose  Enter your selection: [none]
+choose  Enter your selection: [heroku]
 option  Set a robots.txt file to ban spiders?
 choose  Enter your selection: []
 option  Create a GitHub repository? (y/n)
@@ -60,4 +60,4 @@ choose  Enter your selection: [true]
 option  Use 'pry' as console replacement during development and test?
 choose  Enter your selection: [false]
 option  Use or create a project-specific rvm gemset?
-choose  Enter your selection: [false]
+choose  Enter your selection: [true]
